@@ -9,6 +9,6 @@ describe SearchResults do
     expect(members.first.name).to eq("Sirius Black")
     expect(members.first.house).to eq("Gryffindor")
     expect(members.first.role).to eq("Unknown")
-    expect(members.first.patronous).to eq("Unknown")
+    expect(members.first.patronus).to eq("Unknown")
   end
 end
