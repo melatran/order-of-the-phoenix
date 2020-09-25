@@ -1,0 +1,10 @@
+<h1>Order of the Phoenix: <%= @members.count %> members</h1>
+
+<% @members.each do |member| %>
+  <ul class="member" %>
+    <h3><%= member.name %></h3>
+    <p class="role">Role: <%= member.role %></p>
+    <p class="house">House: <%= member.house %></p>
+    <p class="patronous">Patronus: <%= member.patronus%></p>
+  </ul>
+<% end %>
